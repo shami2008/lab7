@@ -18,9 +18,9 @@ int main() {
     std::string encrypted = caesarCipher(original,3);
     std::string decrypted = caesarCipher(original,-3);
 
-    std::cout << "Îðèãèíàë:" << original << "\n";
-    std::cout <<"Çàøèôðîâàíî:" << encrypted << "\n";
-    std::cout << "Ðàñøèôðîâàíî:" << decrypted << "\n";
+    std::cout << "ÐžÑ€Ð¸Ð³Ð¸Ð½Ð°Ð»:" << original << "\n";
+    std::cout <<"Ð—Ð°ÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°Ð½Ð¾:" << encrypted << "\n";
+    std::cout << "Ð Ð°ÑÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°Ð½Ð¾:" << decrypted << "\n";
 
     return 0;
 }
